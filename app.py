@@ -4,6 +4,7 @@ from nltk_utils import tokenize, stem, bag_of_words  # NLTK helper functions
 import json
 import numpy as np
 import random
+import nltkfix
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a secure key for session management
